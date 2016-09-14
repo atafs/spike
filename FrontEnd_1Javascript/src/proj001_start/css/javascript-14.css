@@ -1,0 +1,33 @@
+﻿img, table {
+    width: 335px;
+    border: 1px solid green;
+    
+}
+
+fieldset {
+    width: 300px;
+    background-color: white;
+    color: black;
+}
+
+lable {
+    display: block;
+    float:left;
+}
+
+label, input {
+    width: 300px;
+    float: left;
+}
+
+th, td {
+    border: 1px solid: #ccc;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 3px;
+    background-color: green;
+    color: white;
+}
+
+
+

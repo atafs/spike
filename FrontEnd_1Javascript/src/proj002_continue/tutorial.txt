@@ -1,0 +1,5 @@
+//JavaScript Tutorial
+http://www.w3schools.com/js/default.asp
+
+//continue here
+http://www.w3schools.com/Js/js_datatypes.asp

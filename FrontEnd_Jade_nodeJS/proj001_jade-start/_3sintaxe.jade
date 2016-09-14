@@ -1,0 +1,27 @@
+doctype
+
+html
+
+  //- You can include other Jade files
+  include ./head.jade
+
+  //- Define the body
+  body
+
+    div
+      p First paragraph
+      p
+        | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ipsum velit. Nulla finibus enim sit amet nisi congue sagittis.
+        br
+        | Cras sem diam, aliquam et bibendum quis, volutpat at eros. Quisque gravida erat quis mauris cursus, sed iaculis lacus laoreet.
+      p.
+        Nulla fringilla, nibh sed placerat posuere, metus urna lacinia sapien, in <i>consectetur justo</i> ex sit amet enim. Aenean gravida mauris quis risus tempor tempor. Vivamus malesuada maximus leo, vel aliquam erat mattis lacinia. Nunc sagittis ante at condimentum euismod.
+
+      //- Attributes are defined in parentheses and are separated
+      p(id="4th_Para",
+      class="lorem_ipsum very_import").
+      Sed tristique ipsum in pellentesque commodo. Pellentesque mi nibh, dictum non luctus et, porta non nibh. Nulla a mollis quam, sit amet feugiat urna. Phasellus enim nisi, dignissim sit amet mattis a, vestibulum in massa.
+
+      //- Divs are defined by default if you don't provide a tag
+      #2nd_div.lorem_ipsum.very_import
+      Duis nec nisl risus. Ut eleifend purus vitae orci elementum, eget ultricies sem iaculis. Suspendisse id rutrum odio. Pellentesque a ante in tortor euismod dictum ac sit amet magna. Nulla sed velit tristique, lobortis erat vitae, bibendum sapien. Aenean ac volutpat nibh. Integer et volutpat est.

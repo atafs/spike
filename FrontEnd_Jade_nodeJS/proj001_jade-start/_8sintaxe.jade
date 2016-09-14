@@ -1,0 +1,39 @@
+doctype
+
+html
+
+  //- You can include other Jade files
+  include ./head.jade
+
+  //- Define the body
+  body
+
+    div
+
+      //- ---------- MIXINS ----------
+
+      //- Mixins are reusable pieces of code that are basically JS functions
+
+      mixin nflPlayer(name, pos, team)
+        li #{name} is the #{pos} for the #{team}
+
+      ul#nflPlayers
+        +nflPlayer("Tom Brady", "Quarterback", "Patriots")
+        +nflPlayer("Payton Manning", "Quarterback", "Broncos")
+
+      //- Mixins don't have to receive parameters and can just provide output like the copyright symbol
+      mixin copyr
+        | &#169;
+
+      p
+        +copyr
+        |  2016
+
+      //- You can receive a variable number of arguments by turning the arguments object into an array
+      mixin makeList()
+        ul
+          - args = Array.prototype.slice.call(arguments);
+          for item in args
+            li= item
+
+      +makeList("Dog", "Cat", "Fish")

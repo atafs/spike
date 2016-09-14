@@ -1,0 +1,15 @@
+//account1
+user: tomas
+pass: 123456789
+
+//account2
+user: americo
+pass: 123456789
+
+//account3
+user: agrela
+pass: 123456789
+
+//account4
+user: batalha
+pass: 123456789

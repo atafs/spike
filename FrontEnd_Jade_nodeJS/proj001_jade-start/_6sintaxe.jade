@@ -1,0 +1,58 @@
+doctype
+
+html
+
+  //- You can include other Jade files
+  include ./head.jade
+
+  //- Define the body
+  body
+
+    div
+
+      // ---------- LOGIC OPERATORS ----------
+
+      //- You can provide different output based on if
+      - date = new Date()
+      - hour = date.getHours()
+
+      - if ((hour >= 6) && (hour <= 17)){
+        h3 #{date}: <i>Day Time</i>
+      - } else {
+        h3 #{date}: Night Time
+      - }
+
+      //- This can also be written using indentation
+      - age = 18
+
+      if ((age >= 16) && (age < 18))
+       h3 You can drive
+      else if age >= 18
+       h3 You can drive and vote
+      else
+       h3 You can wait till you're 16
+
+      //- unless comes out negative if the condition is true
+      unless age >= 16
+       h3 You'll drive at 16
+      else
+       h3 You can drive
+
+      //- You can also use the ternary operator
+      - dayTime = (((hour >= 6) && (hour <= 17)) ? 'Day Time' : 'Night Time')
+        h3 #{dayTime}
+
+      //- Case works like Switch
+      - name = "Americo"
+
+      case name
+       when "Americo"
+         h3 Hi Americo
+       when "Tomas"
+         h3 Hi Tomas
+       default
+         h3 Hi You
+
+      //- You can also run JS with script using F12
+      script.
+       console.log('Hello AmericoLib Jade!')

@@ -1,0 +1,61 @@
+{
+	"type": "user",
+	"id": "57aaeb8c89562c479a000005",
+	"user_id": "998",
+	"anonymous": false,
+	"email": "hugo@moonfruit.com",
+	"name": "Hugo Tomas",
+	"pseudonym": null,
+	"avatar": {
+		"type": "avatar",
+		"image_url": null
+	},
+	"app_id": "i4eeesp5",
+	"companies": {
+		"type": "company.list",
+		"companies": [{
+			"type": "company",
+			"company_id": "001",
+			"id": "57aaeaf144ac1b08b8000023",
+			"name": "Enfermeira"
+		}]
+	},
+	"location_data": {
+		"type": "location_data",
+		"city_name": "Mukilteo",
+		"continent_code": "NA",
+		"country_name": "United States",
+		"latitude": 47.9445,
+		"longitude": -122.3046,
+		"postal_code": "98275",
+		"region_name": "Washington",
+		"timezone": "America/Los_Angeles",
+		"country_code": "USA"
+	},
+	"last_request_at": null,
+	"last_seen_ip": "1.2.3.4",
+	"created_at": 1470819212,
+	"remote_created_at": 1392731331,
+	"signed_up_at": 1392731331,
+	"updated_at": 1470819212,
+	"session_count": 0,
+	"social_profiles": {
+		"type": "social_profile.list",
+		"social_profiles": []
+	},
+	"unsubscribed_from_emails": false,
+	"user_agent_data": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9",
+	"tags": {
+		"type": "tag.list",
+		"tags": []
+	},
+	"segments": {
+		"type": "segment.list",
+		"segments": []
+	},
+	"custom_attributes": {
+		"paid_subscriber": true,
+		"monthly_spend": 205.5,
+		"team_mates": 9
+	}
+}

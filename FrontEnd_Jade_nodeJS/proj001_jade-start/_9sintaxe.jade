@@ -1,0 +1,31 @@
+doctype
+
+html
+
+  //- You can include other Jade files
+  include ./head.jade
+
+  //- Define the body
+  body
+
+    div
+
+      // ---------- EXTEND ----------
+
+      //- extend allows us to replace blocks in a template
+      extends extendex
+      block header
+        h3 The Title
+      block content
+        p
+          | Nulla fringilla, nibh sed placerat posuere, metus urna lacinia sapien, in consectetur justo ex sit amet enim. Aenean gravida mauris quis risus tempor tempor. Vivamus malesuada maximus leo, vel aliquam erat mattis lacinia. Nunc sagittis ante at condimentum euismod.
+
+      //- We can append to what is there
+      block append content2
+        p
+          | Appended data
+
+      //- We can prepend to what is there
+      block prepend content3
+        p
+          | I come first

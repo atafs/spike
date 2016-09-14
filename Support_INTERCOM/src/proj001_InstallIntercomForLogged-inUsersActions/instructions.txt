@@ -1,0 +1,7 @@
+0-instal
+https://docs.intercom.io/install-on-your-product-or-site/quick-install/install-intercom-on-your-web-app
+
+1- added the js given by intercom in dashboard.tt
+(just to see it working... problem to stay in from of the hamburguer menu)
+
+2- need to get data from the user to avoid hardcoding the name of the user, etc...

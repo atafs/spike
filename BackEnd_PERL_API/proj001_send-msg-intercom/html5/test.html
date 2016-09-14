@@ -1,0 +1,192 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Welcome to perlmeme.org</title>
+  <meta name="Description" content="A collection of Frequently Asked Questions, How To documents, and tutorials about the very cool Perl programming language">
+  <meta name="Author" content="Simon Taylor and other developers at the sourceforge perlmeme-org project">
+  <meta name="Keywords" content="Perl, cgi, module, csv, text processing, regular expressions, open source language, faq, howto, tutorial, unisolve">
+  <meta name="copyright" content="Copyright 2012 Simon Taylor">
+  <link href="/style/perlmeme_common.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="/style/perlmemehome.css">
+  <script type="text/javascript">
+  // And now try to work out the browser...
+  var isKonqueror  = (navigator.userAgent.indexOf("Konqueror") != -1);
+  var isMozilla    = (navigator.userAgent.indexOf("Gecko") != -1);
+  var isNetscape   = (navigator.appName == "Netscape");
+  var isIE         = (navigator.appName == "Microsoft Internet Explorer");
+
+  var text = new Array(
+"Unicode::Normalize","Term::ANSIColor","DynaLoader","TAP::Parser::YAMLish::Writer","Encode::CN","ExtUtils::Embed","IO::Pipe","XML::SAX","CPANPLUS::Dist::Base","App::Ack","Compress::Raw::Bzip2","Getopt::Std","App::cpanminus","TAP::Parser::Iterator::Array","Math::BigInt","ExtUtils::MM_MacOS","Module::Build::Platform::Amiga","File::Spec::Win32","Tie::Hash::NamedCapture","Pod::Simple::Text","Log::Dispatch","Test::NoWarnings","CPANPLUS::Internals::Source::SQLite","Win32CORE","Pod::PlainText","CPANPLUS::Dist::Build","Pod::Perldoc::ToTk","Pod::Simple::Subclassing","Module::Pluggable::Object","MIME::QuotedPrint","Test::Builder::Tester","Pod::LaTeX","TAP::Parser::Result::Test","B::Concise","ExtUtils::ParseXS","Pod::Parser","Pod::Simple::DumpAsXML","O","TAP::Harness","CGI::Push"
+);
+
+var i = 0;
+  function scroll() {
+    if ((!isNetscape) || (isMozilla && isNetscape)) {
+      document.getElementById("modules").innerHTML = text[i];
+      if (!isIE && !isKonqueror) {
+          document.getElementById("modules2").innerHTML = text[i];
+      }
+      i++;
+      if (i == text.length) {
+          i = 0;
+      }
+      setTimeout("scroll()", 1200);
+    }
+  }
+  </script>
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33169771-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  </script>
+</head>
+<body onLoad="scroll();">
+
+<script type="text/javascript">
+var Start_Here    = new Image();
+var Start_Here_mo = new Image();
+var HOWTOs        = new Image();
+var HOWTOs_mo     = new Image();
+var FAQs          = new Image();
+var FAQs_mo       = new Image();
+var Tutorials     = new Image();
+var Tutorials_mo  = new Image();
+Start_Here.src    = "/images/Start_Here.jpg";
+Start_Here_mo.src = "/images/Start_Here_mo.jpg";
+HOWTOs.src        = "/images/HOWTOs.jpg";
+HOWTOs_mo.src     = "/images/HOWTOs_mo.jpg";
+FAQs.src          = "/images/FAQs.jpg";
+FAQs_mo.src       = "/images/FAQs_mo.jpg";
+Tutorials.src     = "/images/tutorials.jpg";
+Tutorials_mo.src  = "/images/tutorials_mo.jpg";
+</script>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="navbar">
+  <tr>
+    <td>
+    <ul>
+      <li><a href="/start_here/index.html">Start Here</a></li>
+      <li><a href="/faqs/index.html">FAQs</a></li>
+      <li><a href="/howtos/index.html">HOWTOs</a></li>
+      <li><a href="/tutorials/index.html">TUTORIALs</a></li>
+      <li><a href="/misc/most_recent.html">Most Recent</a></li>
+      <li><a href="/misc/index.html">Miscellaneous</a></li>
+      <li><a href="/sitemap/index.html">Site map</a></li>
+      <li class="norightborder"><a href="/misc/feedback.html?url=index.html&amp;page_title=Welcome to perlmeme.org">Provide Feedback</a></li>
+    </ul>
+    </td>
+    <td align="right" class="padright">
+      <!--Search perlmeme.org-->
+<form action="http://www.google.com" id="cse-search-box">
+      <input type="hidden" name="cx" value="partner-pub-7872648111798431:0321127673" />
+          <input type="hidden" name="ie" value="UTF-8" />
+              <input type="text" name="q" size="20" />
+                  <input type="submit" name="sa" value="Search" />
+</form>
+
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
+    </td>
+  </tr>
+</table>
+<div id="heading_images_main">
+      <img src="/images/perlmeme.org.jpg" alt="The perlmeme.org logo" id="pm_org_main_logo">
+</div>
+
+<div id="content">
+
+<div class="box">
+  <div style="position:relative; ">
+  Here at perlmeme.org we want to answer the question, <BR>
+  <blockquote class="perl">
+    <p>"Where can I learn about Perl?"</p>
+  </blockquote>
+    <div id="modules">
+    </div>
+    <div id="modules2">
+    </div>
+  </div>
+  <div id="reldiv">
+  </div>
+</div>
+
+<div class="box">
+perlmeme.org is a collection of Frequently Asked Questions, "How To" documents, and tutorials about the very cool Perl programming language.
+</div>
+
+<div class="box">
+The documents cover a range of expertise levels. Some are suitable for beginners, others assume that you know some Perl already, and others cover advanced topics.
+</div>
+
+<div class="box">
+If you're new to Perl, or even new to programming in general then perlmeme.org is a great place to start. However, there's plenty of in-depth material here as well.
+</div>
+</div>
+
+<div class="link_images">
+<a class="squeeze" href="start_here/index.html" 
+   onMouseOver="document['start_here'].src 
+       = window['Start_Here_mo'].src; return true"
+   onMouseOut="document['start_here'].src 
+       = window['Start_Here'].src; return true">
+  <img name="start_here" src="/images/Start_Here.jpg" alt="Start Here"></a>
+
+<a class="squeeze" href="faqs/index.html"
+   onMouseOver="document['faqs'].src 
+       = window['FAQs_mo'].src; return true"
+   onMouseOut="document['faqs'].src 
+       = window['FAQs'].src; return true">
+  <img name="faqs" src="/images/FAQs.jpg" alt="FAQs"></a>
+
+<a class="squeeze" href="howtos/index.html"
+   onMouseOver="document['howtos'].src 
+       = window['HOWTOs_mo'].src; return true"
+   onMouseOut="document['howtos'].src 
+       = window['HOWTOs'].src; return true">
+  <img name="howtos" src="/images/HOWTOs.jpg" alt="HOWTOs"></a>
+
+<a class="squeeze" href="tutorials/index.html"
+   onMouseOver="document['tutorials'].src 
+       = window['Tutorials_mo'].src; return true"
+   onMouseOut="document['tutorials'].src 
+       = window['Tutorials'].src; return true">
+  <img name="tutorials" src="/images/tutorials.jpg" alt="Tutorials"></a>
+
+</div>
+
+<noscript>
+<p>It appears that your browser has no javascript support. That's fine
+by us, but note that some of the features of this page won't be visible
+for you. You may care to use the 
+<a href="/index_text.html">simpler version of this page</a> 
+that is friendlier to text-only browsers and special-purpose devices.
+</noscript>
+
+<script type="text/javascript">
+if ((!isNetscape) || (isMozilla && isNetscape)) {
+  document.getElementById("modules").style.MozOpacity = "0.25";
+  document.getElementById("modules2").style.MozOpacity = "0.08";
+}
+</script>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == 
+document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost 
++ "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7730377-2");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+</body></html>

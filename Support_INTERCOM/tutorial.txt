@@ -1,0 +1,4 @@
+//Install Intercom on your web app
+https://docs.intercom.io/install-on-your-product-or-site/quick-install/install-intercom-on-your-web-app
+
+https://app.intercom.io/a/apps/v39v2i4k/guide/web_integration/web_integration_users

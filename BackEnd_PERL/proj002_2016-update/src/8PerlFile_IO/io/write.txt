@@ -1,0 +1,5 @@
+This is the sample text
+that is used to write to file
+
+?is it appending?
+- NO. Just deletes the old message and copies this one!!

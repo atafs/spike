@@ -1,0 +1,20 @@
+http://www.perl.com/pub/2002/08/20/perlandlwp.html
+//1 The Basics of the LWP Class Model   - IntercomDAO_v4
+//2 Posting Form Data                   - IntercomDAO_v5
+//3 Absolutizing URLs                   - IntercomDAO_v6
+//4 Sending GET Form Data               - IntercomDAO_v7
+//5 Accessing HTTPS URLs                - IntercomDAO_v8
+
+http://search.cpan.org/~ether/libwww-perl-6.15/lib/LWP.pm
+//6 This example shows how the user agent, a request and a response are represented in actual perl code:
+- IntercomDAO_v9
+
+http://search.cpan.org/~ether/libwww-perl-6.15/lib/LWP/UserAgent.pm
+//7 LWP::UserAgent - Web user agent class
+- IntercomDAO_v10
+
+http://perlmeme.org/tutorials/lwp.html
+//8 Solution 1: LWP::Simple             - IntercomDAO_v11
+//9 Solution 2: LWP                     - IntercomDAO_v12
+
+//10 in MF check Common.pm example      - IntercomDAO_v13

@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>JAVASCRIPT</title>
+
+    <!--CSS-->
+    <style type="text/css">
+        body {
+            background-color: #000;
+        }
+
+        #americoLIB {
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+
+    <!--JAVASCRIPT-->
+    <script type="text/javascript">
+        //FUNCTION
+        function ligar() {
+            //VAR: usar apenas dentro da funcao: PRIMITIVE TYPES
+            //CONST: usar como variavel para constantes
+            //UNICODE CARACTERS (www.unicode.org)
+            var nome1 = "Americo Tomas";
+            var nome2 = "Am\"erico To'ma\\s \nCARACTERS=\u7231";
+            var nome3;
+            var nome4 = null;
+            //NaN: not a number
+            var nome5 = 3 * "pessoas"
+            //Notacao cientifica
+            var nome6 = 1.453535353453454354353e+308;
+            var nome7 = -1.453535353453454354353e+309;
+            //CONSTANTS
+            var nome8 = 2 + Infinity;
+            const HORAS_DO_DIA = 24;
+
+            var idade = 35;
+            var casado = true;
+            alert("NOME=" + nome8 + "\n => HORAS_DO_DIA=" + HORAS_DO_DIA + "\n => CASADO=" + casado);
+
+            document.getElementById("americoLIB").src = "img/javascript1.png";
+        }
+    </script>
+
+</head>
+<body>
+    <img id="americoLIB" onclick="ligar();" src="img/javascript.png" />
+</body>
+</html>

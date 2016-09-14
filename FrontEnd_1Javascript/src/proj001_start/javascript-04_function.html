@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>JAVASCRIPT</title>
+
+    <!--CSS-->
+    <style type="text/css">
+        body { background-color:#000;}
+        #americoLIB { display:block; margin:20px auto;}
+    </style>
+
+    <!--JAVASCRIPT-->
+    <script type="text/javascript">
+        <!--FUNCTION-->
+        function ligar() {
+            document.getElementById("americoLIB").src = "img/javascript1.png";
+        }
+    </script>
+
+</head>
+    <body onload="alert('CARREGADA A PAGINA');">
+        <img id="americoLIB" onclick="ligar();" src="img/javascript.png"/>
+    </body>
+</html>

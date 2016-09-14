@@ -1,0 +1,55 @@
+doctype
+
+html
+
+  //- You can include other Jade files
+  include ./head.jade
+
+  //- Define the body
+  body
+
+    div
+
+      // ---------- INTERPOLATION ---------------------------
+
+      //- You can execute JavaScript in a template by putting
+
+      //- define a variable and print in the screen
+      - myName = "Derek";
+      p Hello #{myName}
+
+      //- So we can execute JavaScript any place
+      p 1234 * 5678 = #{1234 * 5678}
+
+      //- The code can be run in attributes
+      - website = "http://newthinktank.com"
+      a(href="#{website}") New Think Tank
+
+      //- variable array
+      - heroes = ['Wonder Woman', 'Super Girl', 'Bat Girl']
+      ul
+        li#hero_list_item: a(href="#") #{heroes[0]}
+        li#hero_list_item: a(href="#") #{heroes[1]}
+        li#hero_list_item: a(href="#") #{heroes[2]}
+
+      //- You can shorten tag names, but this normally isn't good
+      - bq = "blockquote"
+      #{bq} A Bad Idea
+
+      //- You can also use = when a block contains only the variable
+      - batmanData = "Batman is a superhero co-created by artist Bob Kane and writer Bill Finger and published by DC Comics. The character made his first appearance in Detective Comics #27 (May, 1939). Batman is the secret identity of Bruce Wayne."
+      p= batmanData
+
+      //- You can do the same with attribute values stored in an
+      - fnI = {"type": "text", "name": "fName"}
+      span First Name
+      input(type=fnI.type, name=fnI.name)
+
+      //- Tags are encoded for security reasons
+      - someInfo = "<i>Very Interesting</i>"
+      p= someInfo
+
+      //- To turn off encoding use !=
+      p!= someInfo
+      //- Or
+      p !{someInfo}

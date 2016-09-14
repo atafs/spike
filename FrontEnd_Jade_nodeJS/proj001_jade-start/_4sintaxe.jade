@@ -1,0 +1,26 @@
+doctype
+
+html
+
+  //- You can include other Jade files
+  include ./head.jade
+
+  //- Define the body
+  body
+
+    div
+
+      //- If you are creating lists you can do this
+      ul
+        li#bbp_list_item
+          a(href='#') Barry Bonds
+        li#bbp_list_item
+          a(href='#') Hank Aaron
+        li#bbp_list_item
+          a(href='#') Babe Ruth
+
+      //- Or, you can put them on the same line with a colon
+      ul
+        li#hero_list_item: a(href="#") Batman
+        li#hero_list_item: a(href="#") Superman
+        li#hero_list_item: a(href="#") The Flash

@@ -1,0 +1,43 @@
+//tutorial
+http://www.perltutorial.org/
+
+/* GETTING STARTED */
+http://www.perltutorial.org/introduction-to-perl/
+http://www.perltutorial.org/setting-up-perl-development-environment/
+http://www.perltutorial.org/developing-the-first-perl-program/
+
+/* BASIC PERL TUTORIAL */
+//Basic Perl Tutorial
+http://www.perltutorial.org/perl-syntax/
+http://www.perltutorial.org/perl-variables/
+http://www.perltutorial.org/perl-numbers/
+http://www.perltutorial.org/perl-string/
+http://www.perltutorial.org/perl-operators/
+http://www.perltutorial.org/perl-list/
+http://www.perltutorial.org/perl-array/
+http://www.perltutorial.org/perl-hash/
+http://www.perltutorial.org/perl-if/
+http://www.perltutorial.org/perl-unless/
+http://www.perltutorial.org/perl-given/
+http://www.perltutorial.org/perl-for-loop/
+http://www.perltutorial.org/perl-while/
+http://www.perltutorial.org/perl-do-while/
+http://www.perltutorial.org/perl-do-until/
+http://www.perltutorial.org/perl-last/
+http://www.perltutorial.org/perl-reference/
+http://www.perltutorial.org/perl-subroutine/
+http://www.perltutorial.org/perl-oop/
+
+
+//to finish at: Home
+- Perl Regular Expression (REGEX)
+http://www.perltutorial.org/perl-regular-expression/
+- Perl Databases (do it in the linux VM; simpler to install CPAN)
+http://www.perltutorial.org/perl-dbi/
+- Advanced Perl tutorial (SORT)
+http://www.perltutorial.org/perl-sort/
+- Perl File Test Operators:
+http://www.perltutorial.org/perl-file-test-operators/
+
+//still continue: Home / Perl Resources
+http://www.perltutorial.org/perl-resources/

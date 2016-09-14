@@ -1,2 +1,2 @@
 # spike
-spike of multiple projects and languages
+spike in stuff useful in my work

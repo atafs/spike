@@ -1,0 +1,14 @@
+# text reference
+$text = "[% INCLUDE header %]\nHello world!\n[% INCLUDE footer %]";
+$tt->process(\$text)
+    || die $tt->error(), "\n";
+
+# file handle (GLOB)
+$tt->process(\*DATA)
+    || die $tt->error(), "\n";
+
+__END__
+[% INCLUDE header %]
+This is a template defined in the __END__ section which is
+accessible via the DATA "file handle".
+[% INCLUDE footer %]

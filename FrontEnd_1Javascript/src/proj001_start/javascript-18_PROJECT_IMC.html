@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>JAVASCRIPT</title>
+
+    <!--CSS CALL EXTERN-->
+    <link rel="stylesheet" type="text/css" href="css/javascript-18.css" media="all" />
+
+    <!--JAVASCRIPT CALL EXTERN-->
+    <script type="text/javascript" src="js/javascript-18.js"> </script>
+
+</head>
+<body>
+    <!--IMAGE WITH LISTENER-->
+    <img id="americoLIB" onclick="mudarImg();" src="img/imc.jpg" />
+
+    <!--FORM-->
+    <form id="formulario">
+        <fieldset>
+            <legend align="center">CALCULO DE IMC</legend>
+
+            <!--TEXTFIELDS-->
+            <label for="KILOS">KILOS:</label>
+            <input type="text" name="kilos" /> <br><br>
+
+            <label for="METROS">METROS:</label>
+            <input type="text" name="metros" /> <br><br>
+
+            <label for="CENTRIMETROS">CENTRIMETROS:</label>
+            <input type="text" name="centimetros" /> <br><br>
+
+            <label for="IMC">IMC:</label>
+            <input type="text" name="imc" disabled="disabled" /> <br><br>
+
+            <!--LISTENER WITH LINK-->
+            <br><br>
+            <a href ="#" onclick="calcularIMC();">CALCULAR => IMC</a>
+            
+            <br><br>
+            <label for="RESULT">IMC RESULT</label>
+            <input type="text" name="result" disabled="disabled" /> <br><br>
+
+        </fieldset>
+    </form>
+
+    <!--TABLE OF VALUES-->
+    <table>
+        <tr><th>IMC</th><th>CLASSIFICATION</th></tr>
+        <tr><td>&lt; 20</td><td>Abaixo do peso</td></tr>
+        <tr><td>20 - 25</td><td>peso IDEAL</td></tr>
+        <tr><td>25 - 30</td><td>excesso peso</td></tr>
+        <tr><td>30 - 35</td><td>obesidade moderada</td></tr>
+        <tr><td>35 - 40</td><td>obesidade severa</td></tr>
+        <tr><td>40 - 45</td><td>obesidade morbida</td></tr>
+        <tr><td>&gt; 50</td><td>obesidade SUPER</td></tr>
+    </table>
+</body>
+
+</html>
