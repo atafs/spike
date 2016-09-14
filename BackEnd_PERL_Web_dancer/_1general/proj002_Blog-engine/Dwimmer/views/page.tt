@@ -1,0 +1,5 @@
+<form method="POST">
+  <input name="title" size="60"/><br />
+  <textarea name="text" rows="20" cols="62"></textarea>
+  <input type="submit" value="Post" />
+</form>

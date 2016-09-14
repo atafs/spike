@@ -1,0 +1,5 @@
+//1- Getting started with Perl Dancer - Creating an Echo application
+http://perlmaven.com/getting-started-with-perl-dancer
+
+//2- Building a blog engine using Perl Dancer
+http://perlmaven.com/building-a-blog-engine-using-perl-dancer
