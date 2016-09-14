@@ -18,7 +18,6 @@ sub intercom_new_lead() {
   my $pass = "31fa73bceea742dd631d69d46ddf9352e8ec2105";
 
   #1 create lead ***************************************
-zz
   my $url = "https://api.intercom.io/contacts/";
   my $json = '{
     "email": "hugo-tomas8@moonfruit.com",
