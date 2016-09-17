@@ -1,0 +1,10 @@
+//OFFICAL SITE
+https://golang.org/
+
+//A Tour of Go
+https://www.youtube.com/watch?v=ytEkHepK08c
+
+//tour.golang.org/basics
+https://tour.golang.org/list
+https://tour.golang.org/basics/1
+https://tour.golang.org/methods/1
