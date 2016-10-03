@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>INTERCOM STUFF</h1>
+<p>the widget to communicate</p>
+
+<div id="intercom">
+  <script>
+    window.intercomSettings = {
+      app_id: "i4eeesp5",
+      name: "americo",
+      email: "americo@moonfruit.com",
+      user_id: "100002",
+
+      free_expired: "1",
+      free_expire_date: "01 09 2016",
+      free_user: "1",
+      package_name: "Free",
+      on_trial: "",
+      has_domains: "",
+
+    };
+  </script>
+  <script>
+  (function() {
+  console.log('AMERICO HERE!!');  
+	var w = window;
+	var ic = w.Intercom;
+	if (typeof ic === "function") {
+		ic('reattach_activator');
+		ic('update', intercomSettings);
+	} else {
+		var d = document;
+		var i = function() {
+			i.c(arguments)
+		};
+		i.q = [];
+		i.c = function(args) {
+			i.q.push(args)
+		};
+		w.Intercom = i;
+
+		function l() {
+			var s = d.createElement('script');
+			s.type = 'text/javascript';
+			s.async = true;
+			s.src = 'https://widget.intercom.io/widget/i4eeesp5';
+			var x = d.getElementsByTagName('script')[0];
+			x.parentNode.insertBefore(s, x);
+		}
+
+		if (w.attachEvent) {
+			w.attachEvent('onload', l);
+		} else {
+			w.addEventListener('load', l, false);
+		}
+	}
+  })()
+  </script>
+
+
+  <script>
+    Intercom('showMessages');
+  </script>
+
+</div>
+
+
+</body>
+</html>
