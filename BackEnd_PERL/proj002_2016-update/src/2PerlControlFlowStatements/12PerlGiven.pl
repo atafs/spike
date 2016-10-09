@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+
 use warnings;
 use strict;
 use experimental qw(smartmatch switch);

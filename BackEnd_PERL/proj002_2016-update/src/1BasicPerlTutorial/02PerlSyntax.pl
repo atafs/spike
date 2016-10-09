@@ -1,4 +1,3 @@
-#!/usr/bin/perl
 use warnings;
 
 #Values and Variables, Expressions

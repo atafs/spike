@@ -1,0 +1,1278 @@
+    1  curl http://moonfruit.americo.dev/home
+    2  cd /
+    3  pwd
+    4  ls
+    5  cd Users/
+    6  cd Des
+    7  ls
+    8  cd americo/
+    9  ls
+   10  cd Desktop/
+   11  ls
+   12  pwd
+   13  ssh root@americo.dev
+   14  curl -H 'Accept-Type: text/xml' curl -H 'Accept-Type: text/xml' 
+   15  curl -H 'Accept-Type: text/xml' http://moonfruit.americo.dev/home
+   16  curl -H 'Accept-Type: text/xml' http://moonfruit.americo.dev/home/1
+   17  curl -H 'Accept-Type: text/xml' http://moonfruit.americo.dev/home/2
+   18  clear
+   19  curl -H 'Accept-Type: text/xml' http://moonfruit.americo.dev/sendemail
+   20  clear
+   21  curl https://api.intercom.io/users -X POST -u pi3243fa:da39a3ee5e6b4b0d3255bfef95601890afd80709 -H 'Accept: application/json' -H 'Content-Type: application/json' -d '
+   22  {
+   23    "user_id": "25",
+   24    "email": "wash@serenity.io",
+   25    "name": "Hoban Washburne",
+   26    "signed_up_at": 1392731331,
+   27    "last_seen_ip" : "1.2.3.4",
+   28    "last_seen_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9",
+   29    "custom_attributes": {
+   30      "paid_subscriber" : true,
+   31      "monthly_spend": 155.5,
+   32      "team_mates": 9
+   33    },
+   34    "companies": [
+   35      {
+   36        "company_id" : "366",
+   37        "name" : "Serenity",
+   38        "monthly_spend" : 500
+   39      }
+   40    ]
+   41  }'
+   42  clear
+   43  curl -s https://api.intercom.io/users?user_id=1
+   44  curl -s https://api.intercom.io/users?user_id=25 -u pi3243fa:da39a3ee5e6b4b0d3255bfef95601890afd80709 
+   45  clear
+   46  curl -s https://api.intercom.io/users?user_id=25 -H 'Accept:application/json'
+   47  curl http://moonfruit.americo.dev/sites/get-site-addresses/
+   48  clear
+   49  curl http://moonfruit.americo.dev/intercom/sendemail.json?contact_type=intercom&contact_email=americo@moonfruit.com&contact_name=americo&contact_subject=TEST7 from POSTMAN&contact_message=hello test7 email
+   50  POST
+   51  curl http://moonfruit.americo.dev/intercom/sendemail.json?contact_type=intercom&contact_email=americo@moonfruit.com&contact_name=americo&contact_subject=TEST7 from POSTMAN&contact_message=hello test7 email >> /Users/americo/Desktop/post.html
+   52  curl http://moonfruit.americo.dev/intercom/sendemail.json?contact_type=intercom&contact_email=americo@moonfruit.com&contact_name=americo&contact_subject=TEST7 from POSTMAN&contact_message=hello test7 email >> /Users/americo/Desktop/post.html
+   53  clear
+   54  cd 
+   55  ls
+   56  cd Trunk/
+   57  ls
+   58  cd mf/
+   59  mate . 
+   60  perl -e 'print gmtime()'
+   61  perl -e 'print gmtime(), "\n"'
+   62  perldoc -f gmtime
+   63  perldoc -f localtime
+   64  perldoc -f localtime
+   65  git status
+   66  git stash 
+   67  git status
+   68  git checkout developo
+   69  brew install bash-completion
+   70  vim ~/.bash_profile
+   71  source ~/.bash_profile
+   72  git checkout -
+   73  git status
+   74  ls
+   75  git checkout develop 
+   76  cp MF-Portal/lib/MF/Portal.pm ~/Portal.pm
+   77  git checkout -
+   78  diff MF-Portal/lib/MF/Portal.pm ~/Portal.pm 
+   79  ls
+   80  ls
+   81  mkdir tmp
+   82  cd tmp/
+   83  git clone https://github.com/mathiasbynens/dotfiles.git && cd dotfiles && source bootstrap.sh
+   84  source bootstrap.sh 
+   85  ls
+   86  ls
+   87  ls -la
+   88  ls -la | grep \.
+   89  mv tmp/dotfiles/ .dotfiles
+   90  ls
+   91  cd .dotfiles/
+   92  ls
+   93  cd ..
+   94  ls
+   95  cd .dotfiles/
+   96  source  bootstrap.sh 
+   97  ls
+   98  cd ..
+   99  ls
+  100  cd .dotfiles/
+  101  ls
+  102  cd ..
+  103  ls
+  104  cat .bash_prompt 
+  105  less .bash_prompt 
+  106  ls
+  107  cd Downloads/
+  108  cd ..
+  109  cd .dotfiles/
+  110  cd ..
+  111  cd Trunk/mf/
+  112  vim ~/.bash_profile
+  113  vim ~/.vimrc
+  114  echo "set -- -f; source bootstrap.sh
+  115  > ~/.vimrc 
+  116  vim ~/.vim
+  117  vim ~/.vimrc 
+  118  vim ~/.vim
+  119  vim ~/.bash_prompt 
+  120  ls
+  121  cat ~/.bashrc 
+  122  cat ~/.bash_profile 
+  123  rm .macos 
+  124  cd .dor
+  125  cd .dotfiles/
+  126  ls
+  127  ./brew.sh 
+  128  ./brew.sh 
+  129  ls
+  130  git -v
+  131  git versiob
+  132  git version
+  133  ls
+  134  cd mf
+  135  ls
+  136  cd Trunk/
+  137  ls
+  138  cd mf/
+  139  ls
+  140  ls -la
+  141  ls
+  142  cd .dotfiles/
+  143  source bootstrap.sh 
+  144  rm .vimrc 
+  145  cp ../.vimrc .
+  146  source bootstrap.sh 
+  147  cd ..
+  148  ls
+  149  cd .dotfiles/
+  150  ls
+  151  cat ~/.bash_profile 
+  152  cat ~/.bashrc 
+  153  cat ~/.bash_profile 
+  154  ls
+  155  vim ./.bash_prompt 
+  156  source bootstrap.sh 
+  157  ls -la
+  158  man echo
+  159  vim ~/.bash_profile 
+  160  ls
+  161  grep .bash_prompt  .dotfiles/
+  162  ls -la 
+  163  grep .bash_prompt  .dotfiles
+  164  brew install ack
+  165  ack .bash_prompt .dotfiles/
+  166  ssh root@americo.dev
+  167  ssh root@americo.dev
+  168  Â ls
+  169  ls
+  170  source .bash_prompt 
+  171  ls
+  172  vim .bash_profile 
+  173  vim .bashrc 
+  174  vim .profile 
+  175  cat /etc/profile 
+  176  vim .profile 
+  177  cat .profile
+  178  vim .profile
+  179  cat /etc/profile 
+  180  cat /etc/bashrc 
+  181  vim .bash_profile 
+  182  vim .bashrc
+  183  /Users/americo/Desktop/history-diff.sh; exit;
+  184  man diff 
+  185  info diff
+  186  /Users/americo/Desktop/history-diff.sh; exit;
+  187  cd ~
+  188  ls
+  189  cd Trunk/
+  190  ls
+  191  cd mf/
+  192  clear
+  193  ls
+  194  git branch
+  195  git status
+  196  git add .
+  197  git commit -m "cleaning for a better solution"
+  198  git commit -m "cleaning for a better solution
+  199  §
+  200  git gui
+  201  git branch
+  202  git push origin feature/MOON-2882/test-rebase
+  203  git branch -D feature/MOON-2882/backup
+  204  git branch
+  205  git status
+  206  git add .
+  207  git commit -m 'cleaning'
+  208  git commit -m "cleaning"
+  209  git gui
+  210  git push origin feature/MOON-2882/test-rebase
+  211  git status
+  212  git branch
+  213  git checkout develop
+  214  git branch
+  215  git fetch -p
+  216  git checkout feature/MOON-3326/fix-rebase-conflicts 
+  217  git status
+  218  git fetch -p
+  219  git checkout feature/MOON-2882/test-rebase 
+  220  git status
+  221  git reabse -i HEAD~3
+  222  git rebase --abort
+  223  git reabse -i HEAD~3
+  224  git rebase --abort
+  225  git reabse -i HEAD~3
+  226  git status
+  227  git diff
+  228  git reabse -i HEAD~3
+  229  git reabse -i HEAD~4
+  230  git reabse -i HEAD~2
+  231  git rebase --abort
+  232  git rebase -i HEAD~3
+  233  git config --global gpg.program $(which gpg)
+  234  git status
+  235  git rebase -i HEAD~3
+  236  git rebase --abort
+  237  git rebase -i HEAD~3
+  238  clear
+  239  git status
+  240  git branch
+  241  git add .
+  242  git commit -m "cleaning"
+  243  git gui
+  244  git push origin feature/MOON-2882/test-rebase
+  245  git diff
+  246  git status
+  247  clear
+  248  pwd
+  249  git status
+  250  diff MF-Portal/lib/MF/SitemakerDAO/Common.pm
+  251  git status
+  252  git branch
+  253  git checkout .
+  254  git staus
+  255  git status
+  256  ls
+  257  git status
+  258  git gui
+  259  git status
+  260  git gui
+  261  ls
+  262  git status
+  263  ls 
+  264  ls
+  265  cat .profile
+  266  cat .bash_profile 
+  267  source .bash_profile 
+  268  ls
+  269  rm echo 
+  270  ls -la
+  271  vim .bash_profile 
+  272  pwd
+  273  ssh root@americo.dev
+  274  ssh root@americo.dev
+  275  ssh 
+  276  clear
+  277  ssh root@americo.dev
+  278  ls
+  279  ls -la
+  280  ls
+  281  cd Trunk/
+  282  ls
+  283  cd fm
+  284  diff MF-Portal/lib/MF/Portal.pm ~/Portal.pm 
+  285  git log 
+  286  git show 3cb0c08032acc71eee38558a340f93d81b1e6d52
+  287  git log 
+  288  git show 3cb0c08032acc71eee38558a340f93d81b1e6d52
+  289  diff -u MF-Portal/lib/MF/Portal.pm ~/Portal.pm 
+  290  \diff -u MF-Portal/lib/MF/Portal.pm ~/Portal.pm 
+  291  which diff
+  292  diff -u MF-Portal/lib/MF/Portal.pm ~/Portal.pm 
+  293  git status
+  294  git fetch -p
+  295  git rebase develop
+  296  git rebase --abort
+  297  ls
+  298  diff -u MF-Portal/lib/MF/Portal.pm ~/Portal.pm 
+  299  diff -R MF-Portal/lib/MF/Portal.pm ~/Portal.pm 
+  300  mv ~/Portal.pm   MF-Portal/lib/MF/Portal.pm 
+  301  git diff
+  302  ls
+  303  git status
+  304  git stash pop
+  305  cp MF-Portal/lib/MF/Portal.pm ~/
+  306  vim .bashrc
+  307  vim ~/.bash_profile 
+  308  brew info bash-completion
+  309  vim ~/.bash_profile 
+  310  ls
+  311  git status
+  312  git checkout MF-Portal/lib/MF/Portal.pm
+  313  git stash pop
+  314  git diff
+  315  git checkout  MF-Portal/lib/MF/SitemakerDAO/Common.pm
+  316  rm  MF-Portal/lib/MF/SitemakerDAO/Common.pm
+  317  git checkout  MF-Portal/lib/MF/SitemakerDAO/Common.pm
+  318  MF-Portal/lib/MF/SitemakerDAO/Common.pm
+  319  ls MF-Portal/lib/MF/SitemakerDAO/Common.pm
+  320  git checkout  MF-Portal/lib/MF/SitemakerDAO/Common.pm
+  321  git status
+  322  git stash pop
+  323  git reset --hard
+  324  ls
+  325  git checkout stash show
+  326  git checkout stash list
+  327  git diff
+  328  git status
+  329  git stash show
+  330  git status
+  331  git checkout feature/MOON-2882/test-rebase 
+  332  git res
+  333  cat .git/refs/heads/feature/MOON-3326/fix-rebase-conflicts 
+  334  ls
+  335  git stash pop
+  336  git git status
+  337  git status
+  338  git diff MF-Portal/lib/MF/SitemakerDAO/Common.pm
+  339  git checkout  MF-Portal/lib/MF/SitemakerDAO/Common.pm
+  340  git diff MF-Portal/lib/MF/SitemakerDAO/Common.pm
+  341  vim MF-Portal/lib/MF/SitemakerDAO/Common.pm
+  342  git diff ..develop 
+  343  git diff ..develop  | grep intercom
+  344  vim MF-Portal/lib/MF/SitemakerDAO/Common.pm
+  345  ls
+  346  diff build.properties build.properties.example
+  347  diff build.properties.example build.properties
+  348  ls
+  349  git blame build.properties
+  350  git blame build.properties.example
+  351  ls
+  352  git status
+  353  git diff
+  354  git diff --cached
+  355  cp ~/Portal.pm MF-Portal/lib/MF/Portal.pm 
+  356  clear
+  357  history
+  358  cd ~
+  359  ls
+  360  cd Desktop/
+  361  \ls
+  362  ls
+  363  pwd
+  364  history >> /Users/americo/Desktop/history-diff.sh
+  365  clear
+  366  history
+  367  clear
+  368  history
+  369  history >> /Users/americo/Desktop/history-diff.sh
+  370  cd ~
+  371  ls
+  372  cd Spike/
+  373  ld
+  374  ls
+  375  cd ..
+  376  cd Movies/
+  377  cd ..
+  378  ls
+  379  cd myMoonfruit/
+  380  ls
+  381  cd spike/
+  382  ls
+  383  cd BackEnd_PERL_API/
+  384  ls
+  385  cd proj001_send-msg-intercom/
+  386  ls
+  387  perl IntercomDAO.pm 
+  388  cleaer
+  389  clear
+  390  perl IntercomDAO.pm 
+  391  clear
+  392  perl IntercomDAO.pm 
+  393  clear
+  394  perl IntercomDAO.pm 
+  395  ls
+  396  perl IntercomDAO_v2.pm 
+  397  clear
+  398  perl IntercomDAO_v2.pm 
+  399  clear
+  400  perl IntercomDAO_v2.pm 
+  401  perl IntercomDAO_v3.pm 
+  402  clear
+  403  perl IntercomDAO_v3.pm 
+  404  clear
+  405  perl IntercomDAO_v1.pm 
+  406  clear
+  407  perl IntercomDAO_v2.pm 
+  408  perl IntercomDAO_v3.pm 
+  409  clear
+  410  perl IntercomDAO_v3.pm 
+  411  perl IntercomDAO_v4.pm 
+  412  perl IntercomDAO_v5.pm 
+  413  clear
+  414  perl IntercomDAO_v5.pm 
+  415  clear
+  416  perl IntercomDAO_v6.pm 
+  417  clear
+  418  perl IntercomDAO_v6.pm 
+  419  perl IntercomDAO_v7.pm 
+  420  perl IntercomDAO_v6.pm 
+  421  perl IntercomDAO_v8.pm 
+  422  perl IntercomDAO_v6.pm 
+  423  perl IntercomDAO_v8.pm 
+  424  perl IntercomDAO_v9.pm 
+  425  clear
+  426  perl IntercomDAO_v9.pm 
+  427  clear
+  428  perl IntercomDAO_v9.pm 
+  429  perl IntercomDAO_v10.pm 
+  430  perl IntercomDAO_v11.pm 
+  431  clear
+  432  perl IntercomDAO_v11.pm 
+  433  clear
+  434  perl IntercomDAO_v11.pm 
+  435  perl IntercomDAO_v12.pm 
+  436  clear
+  437  perl IntercomDAO_v12.pm 
+  438  pwd
+  439  clear
+  440  pwd
+  441  ls
+  442  clear
+  443  ls
+  444  ls
+  445  pwd
+  446  git status
+  447  cd /media/sf_myMoonfruit/script/linux/americo.dev
+  448  ls
+  449  pwd
+  450  clear
+  451  git status
+  452  git gui
+  453  git checkout .
+  454  git status
+  455  git gui
+  456  git gui
+  457  git gui
+  458  git gui
+  459  git status
+  460  git add .
+  461  git commit -m "commit"
+  462  pwd
+  463  ls
+  464  git config gpg.program
+  465  cd /usr/local/bin/gpg
+  466  cd /usr/local/bin/
+  467  ls
+  468  cd -
+  469  ls
+  470  git config gpg.program /usr/local/bin/gpg
+  471  git commit -m "commit"
+  472  cd /usr/local/bin/gpg
+  473  cd /usr/local/bin
+  474  ls -l | grep 'gpg'
+  475  ls -la
+  476  clear
+  477  ls -l
+  478  ls -l | grep 'gpg'
+  479  clear
+  480  cd -
+  481  ls
+  482  git status
+  483  git commit -m 'commit'
+  484  git commit -m "commit"
+  485  ls
+  486  clear
+  487  git commit -m "commit"
+  488  git status
+  489  clear
+  490  git commit -m "commit"
+  491  ls 
+  492  git status
+  493  git config
+  494  git config -l
+  495  git config -l | grep gpg
+  496  vim ~/.gitconfig 
+  497  pwd
+  498  ls
+  499  pwd
+  500  cd commit.gpgsign
+  501  cd /Users/americo/Trunk/mf
+  502  git status
+  503  git diff
+  504  git diff --cached
+  505  git status
+  506  git diff
+  507  less ~/.atom/styles.less
+  508  vim ~/.atom/styles.less
+  509  atom . 
+  510  ls
+  511  git status
+  512  git diff
+  513  ls
+  514  git diff
+  515  git add .
+  516  git commit -m "commit"
+  517  git bracnch
+  518  git branch
+  519  git push origin feature/MOON-2882/test-rebase
+  520  git status
+  521  git diff
+  522  git add .
+  523  git commit -m "commit"
+  524  git push origin feature/MOON-2882/test-rebase
+  525  git status
+  526  git diff
+  527  clear
+  528  git diff
+  529  claer
+  530  clear
+  531  git diff
+  532  clear
+  533  git diff
+  534  clear
+  535  git diff
+  536  clear
+  537  git diff
+  538  clear
+  539  git diff
+  540  clear
+  541  git status
+  542  git checkout .
+  543  git status
+  544  clear
+  545  git diff
+  546  clear
+  547  git branch
+  548  git branch -vv
+  549  git branch -m feature/MOON-3326/intercom-not-login-users-msg-JS-wrong-approach
+  550  git branch -vv
+  551  git status
+  552  git checkout feature/MOON-3326/intercom-not-login-users-msg-OAuth
+  553  git checkout -b feature/MOON-3326/intercom-not-login-users-msg-OAuth
+  554  git status
+  555  git branch
+  556  ]git checkout feature/MOON-3326/intercom-not-login-users-msg-JS-wrong-approach
+  557  git checkout feature/MOON-3326/intercom-not-login-users-msg-JS-wrong-approach
+  558  git branch
+  559  git status
+  560  git add .
+  561  git commit -m 'wrong approach in JS... still saved for know'
+  562  git push origin feature/MOON-3326/intercom-not-login-users-msg-JS-wrong-approach
+  563  git status
+  564  git branch
+  565  git checkout feature/MOON-3326/intercom-not-login-users-msg-OAuth
+  566  git branch
+  567  git status
+  568  git checkout feature/MOON-3326/intercom-not-login-users-msg-JS-wrong-approach
+  569  git status
+  570  cear
+  571  git branch
+  572  git status
+  573  git checkout feature/MOON-3326/intercom-not-login-users-msg-OAuth
+  574  git checkout feature/MOON-3326/intercom-not-login-users-msg-JS-wrong-approach
+  575  git checkout feature/MOON-3326/intercom-not-login-users-msg-OAuth
+  576  git diff
+  577  clear
+  578  git branch
+  579  git checkout feature/MOON-3326/intercom-not-login-users-msg-JS-wrong-approach
+  580  cd ..
+  581  cd sm5/
+  582  ls
+  583  cd sitemaker/
+  584  cd perl/
+  585  ls
+  586  atom . 
+  587  cd  .
+  588  cd ..
+  589  ls
+  590  cd ..
+  591  ls
+  592  cd mf
+  593  git status
+  594  git diff
+  595  clear
+  596  git diff
+  597  git branch
+  598  git checkout feature/MOON-3326/intercom-not-login-users-msg-OAuth
+  599  git status
+  600  git diff
+  601  clear
+  602  git diff
+  603  git branch
+  604  git checkout feature/MOON-3326/intercom-not-login-users-msg-JS-wrong-approach
+  605  git status
+  606  git diff
+  607  git checkout feature/MOON-3326/intercom-not-login-users-msg-OAuth
+  608  gi diff
+  609  clear
+  610  git diff
+  611  git add .
+  612  git commit -m 'start o prep the post for the not logged in users'
+  613  git push origin feature/MOON-3326/intercom-not-login-users-msg-OAuth
+  614  git status
+  615  git branch
+  616  git checkout -b feature/MOON-3326/intercom-ready-logged-in-users
+  617  git branch
+  618  clear
+  619  git diff
+  620  git status
+  621  git add .
+  622  git commit -m 'MOON-3391/cleaning the project from debug logs and dead code'
+  623  git push origin feature/MOON-3326/intercom-ready-logged-in-users
+  624  git status
+  625  clear
+  626  git status
+  627  git diff
+  628  clear
+  629  git status
+  630  git diff
+  631  git add .
+  632  git commit -m 'MOON-3391/1- Remove Contact us from the MF footer for logged in user screenshot point1'
+  633  git push origin feature/MOON-3326/intercom-ready-logged-in-users
+  634  git status
+  635  clear
+  636  git status
+  637  git diff
+  638  git add .
+  639  git commit -m 'MOON-3391/2- Remove Contact us from the left menu for logged in users Screenshot point2'
+  640  git push origin feature/MOON-3326/intercom-ready-logged-in-users
+  641  git status
+  642  git diff
+  643  git add .
+  644  git commit -m 'MOON3391/3. Remove My queries from the left menu for logged in users Screenhot point2'
+  645  git push origin feature/MOON-3326/intercom-ready-logged-in-users
+  646  clear
+  647  git diff
+  648  git add .
+  649  git commit -m 'MOON-3391/4- Remove Contact us from the following pages for Logged in users Screenhot point4'
+  650  git push origin feature/MOON-3326/intercom-ready-logged-in-users
+  651  git status
+  652  git diff
+  653  cleart
+  654  clear
+  655  git diff
+  656  git checkout .
+  657  git diff
+  658  git checkout .
+  659  clear
+  660  git diff
+  661  clear
+  662  git diff
+  663  git checkout .
+  664  git diff
+  665  git status
+  666  git add .
+  667  git commit -m 'MOON-3392/Redirect the user to the Dashboard once they login from MF.com/contact'
+  668  git push origin feature/MOON-3326/intercom-ready-logged-in-users
+  669  git diff
+  670  clea
+  671  rclear
+  672  clear
+  673  git diff
+  674  git add .
+  675  git commit -m 'MOON-3393/Remove View my queries and Submit a query from the user dashboard'
+  676  git push origin feature/MOON-3326/intercom-ready-logged-in-users
+  677  clear
+  678  git diff
+  679  clear
+  680  git diff
+  681  clear
+  682  git add .
+  683  git commit -m 'MOON-3393/remove js associated with listeners'
+  684  git push origin feature/MOON-3326/intercom-ready-logged-in-users
+  685  git diff
+  686  git add .
+  687  git commit -m 'MOON-3393/when going to /contact logged in, it would end up in /submit-query'
+  688  git push origin feature/MOON-3326/intercom-ready-logged-in-users
+  689  git status
+  690  clear
+  691  git diff
+  692  clear
+  693  git diff
+  694  clear
+  695  git diff
+  696  clear
+  697  git diff
+  698  git status
+  699  git diff
+  700  git add .
+  701  git commit -m 'MOON-3394/Redirect Submit a query under the help section of the editor to the Dashboard'
+  702  git push origin feature/MOON-3326/intercom-ready-logged-in-users
+  703  git status
+  704  git diff
+  705  git add .
+  706  git commit -m 'presenting the js script in a better view'
+  707  git diff
+  708  clear
+  709  git diff
+  710  clear
+  711  git diff
+  712  git add .
+  713  git commit -m 'getting a better name for the variable'
+  714  git push origin feature/MOON-3326/intercom-ready-logged-in-users
+  715  git checkout develop 
+  716  git pull
+  717  ls
+  718  cd checkout -
+  719  git checkout -
+  720  git rebase develop 
+  721  git mergetool
+  722  git rebase --abort
+  723  git config --global merge.tool opendiff
+  724  git rebase --abort
+  725  git rebase develop 
+  726  git mergetool
+  727  sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer
+  728  git rebase --abort
+  729  cd ~
+  730  ls
+  731  cd Trunk/
+  732  cd sm5/
+  733  ls
+  734  atom .
+  735  clear
+  736  pwd
+  737  git diff
+  738  git branch
+  739  git add .
+  740  git commit -m 'MOON-3394/intercom changing the message in the help menu'
+  741  git push origin develop
+  742  git status
+  743  git branch
+  744  clear
+  745  git log
+  746  clear
+  747  git log 93dc2376da5529b0a2d145f4ee18007ef0e19a3d
+  748  clear
+  749  git log /p -1
+  750  git log -p -1
+  751  clear
+  752  git log -p -1
+  753  git log 
+  754  clear
+  755  git log -p -1
+  756  git help log
+  757  git help log -p
+  758  clear
+  759  git log -p -1
+  760  git checkout -0
+  761  git checkout -]
+  762  git checkout -
+  763  git checkout feature/yell-data 
+  764  git branch -D develop
+  765  git checkout develop 
+  766  git log -1
+  767  git log -2
+  768  git log -3
+  769  git fetch -p
+  770  git pull
+  771  git log -1
+  772  git log -2
+  773  git log -3
+  774  git log -4
+  775  +HELPMENUVIEW_SUBMIT_A_TECHNICAL_QUERY=Chat with us
+  776  grep HELPMENUVIEW_SUBMIT_A_TECHNICAL_QUERY * 
+  777  grep -R HELPMENUVIEW_SUBMIT_A_TECHNICAL_QUERY * 
+  778  ls
+  779  cd sitemaker/
+  780  ls
+  781  cd flex/toolbar/locale/en_GB/
+  782  ls
+  783  grep ELPMENUVIEW_SUBMIT_A_TECHNICAL_QUERY
+  784  grep ELPMENUVIEW_SUBMIT_A_TECHNICAL_QUERY * 
+  785  vim Admin.properties 
+  786  cd ..
+  787  git diff
+  788  cd ..
+  789  cd .
+  790  cd ..
+  791  ls
+  792  git status
+  793  git commit -m 'MOON-3394: Intercom changing the message in the help menu'
+  794  git checkout -b feature/MOON-3394/change-help-menu
+  795  git commit -am 'MOON-3394: Intercom changing the message in the help menu'
+  796  git log -1
+  797  git config --global user.name "Americo Fernandes"
+  798  git log -1
+  799  git rebase -i develop 
+  800  git log -1
+  801  git commit --amend --author "Americo Fernandes <americo@moonfruit.com>"
+  802  git log -1
+  803  ls
+  804  git push -u
+  805  git pull
+  806  git version
+  807  git config --global push.default simple
+  808  git push
+  809  git log -1
+  810  clear
+  811  ssh root@americo.dev
+  812  ssh root@americo.dev
+  813  clear
+  814  pwd
+  815  ls
+  816  cd myMoonfruit/
+  817  ls
+  818  cd spike/
+  819  ls
+  820  cd BackEnd_PERL_API/
+  821  ls
+  822  cd
+  823  cd p
+  824  ls
+  825  cd myMoonfruit/
+  826  ls
+  827  cd spike/
+  828  ls
+  829  cd BackEnd_PERL_API/
+  830  ls
+  831  cd proj001_send-msg-intercom/
+  832  ls
+  833  atom .
+  834  ls
+  835  ls -l
+  836  perl cperl cls
+  837  ls
+  838  perl conversations_2user-initiated.pm 
+  839  clear
+  840  ls
+  841  perl conversations_2user-initiated.pm 
+  842  ls
+  843  cd ..
+  844  ld
+  845  ls
+  846  cd proj001_send-msg-intercom/
+  847  ls
+  848  cd curl/
+  849  ls
+  850  cd intercom/
+  851  ls
+  852  cd _3api-FINAL/
+  853  ls
+  854  ./conversations_1
+  855  ls -l
+  856  chmod +x conversations_2user-initiated.sh 
+  857  ./conversations_2user-initiated.sh 
+  858  cd ..
+  859  ls
+  860  cd ..
+  861  ls
+  862  perl conversations_2user-initiated.pm 
+  863  perl --version
+  864  ls
+  865  perl conversations_2user-initiated.pm 
+  866  cd ..
+  867  ls
+  868  cd ..
+  869  ls
+  870  cd ..
+  871  ls
+  872  cd spike/
+  873  atom .
+  874  cd ..
+  875  ls
+  876  cd myMoonfruit/
+  877  atom .
+  878  git branch
+  879  ls
+  880  cd spike/BackEnd_PERL_API/proj001_send-msg-intercom/conversations_2user-initiated.pm
+  881  cd spike/BackEnd_PERL_API/proj001_send-msg-intercom/
+  882  ls
+  883  perl conversations_2user-initiated.pm 
+  884  ls
+  885  clear
+  886  ls
+  887  ls -la
+  888  chmod +x conversations_2user-initiated.sh 
+  889  ls -la
+  890  ./conversations_2user-initiated.sh 
+  891  perl conversations_2user-initiated.pm 
+  892  ./conversations_2user-initiated.sh 
+  893  clear
+  894  perl conversations_2user-initiated.pm 
+  895  ls
+  896  cd curl/
+  897  cd intercom/
+  898  ls
+  899  cd _3api-FINAL/
+  900  ls
+  901  chmod +x lead_1create.sh 
+  902  ls -l
+  903  ./lead_1create.sh 
+  904  ls -l
+  905  chmod +x conversations_1admin-initiated.sh 
+  906  ls -l
+  907  ./conversations_2user-initiated.sh 
+  908  ls -l
+  909  ./conversations_1admin-initiated.sh 
+  910  la
+  911  pwd
+  912  cd ..
+  913  cd _1seq-lead/
+  914  ls
+  915  ls -l
+  916  chmod +x 1create-lead.sh 
+  917  chmod +x 2get-lead.sh 
+  918  chmod +x 3post-conversations.sh 
+  919  ls -l
+  920  ./1create-lead.sh 
+  921  ./2get-lead.sh 
+  922  clear
+  923  ./2get-lead.sh 
+  924  ./3post-conversations.sh 
+  925  pwd
+  926  cd ..
+  927  ls
+  928  cd _3api-FINAL/
+  929  ls
+  930  pwd
+  931  cd ..
+  932  ls
+  933  cd ..
+  934  ls
+  935  cd perl/
+  936  ls
+  937  cd intercom/
+  938  ls
+  939  cd _2api-FINAL/
+  940  ls
+  941  perl conversations_3lead-initiated.pm 
+  942  ls
+  943  cd ..
+  944  ls
+  945  cd proj001_send-msg-intercom/
+  946  ls
+  947  perl conversations_3lead-initiated.pm 
+  948  sudo cpanm install JSON
+  949  brew install cpanm
+  950  sudo cpanm install JSON
+  951  perl conversations_3lead-initiated.pm 
+  952  clear
+  953  perl conversations_3lead-initiated.pm 
+  954  clear
+  955  perl conversations_3lead-initiated.pm 
+  956  clear
+  957  perl conversations_3lead-initiated.pm 
+  958  clear
+  959  perl conversations_3lead-initiated.pm 
+  960  clear
+  961  perl conversations_4lead-print-json-array.pm 
+  962  clear
+  963  perl conversations_4lead-print-json-array.pm 
+  964  clear
+  965  perl conversations_4lead-print-json-array.pm 
+  966  clear
+  967  perl conversations_4lead-print-json-array.pm 
+  968  clear
+  969  perl conversations_4lead-print-json-array.pm 
+  970  perl conversations_3lead-initiated.pm 
+  971  perl conversations_4lead-print-json-array.pm 
+  972  clear
+  973  perl conversations_4lead-print-json-array.pm 
+  974  clear
+  975  perl conversations_4lead-print-json-array.pm 
+  976  clear
+  977  perl conversations_4lead-print-json-array.pm 
+  978  perl conversations_5lead-create-and-post.pm 
+  979  clear
+  980  perl conversations_5lead-create-and-post.pm 
+  981  perl conversations_3lead-initiated.pm 
+  982  perl conversations_4lead-print-json-array.pm 
+  983  clear
+  984  perl conversations_4lead-print-json-array.pm 
+  985  clear
+  986  perl conversations_4lead-print-json-array.pm 
+  987  cd ~
+  988  ls
+  989  cd Trunk/
+  990  cd mf/
+  991  git checkout develop
+  992  git status
+  993  cd /Users/americo/myMoonfruit/spike/BackEnd_PERL_API/proj001_send-msg-intercom/curl/intercom/IntercomDAO
+  994  pwd
+  995  git init
+  996  git status
+  997  git add .
+  998  git status
+  999  git commit -m "first commit"
+ 1000  git staus
+ 1001  git log
+ 1002  clear
+ 1003  git log
+ 1004  git status
+ 1005  git add .
+ 1006  git commit -m "skeleton of the feature"
+ 1007  git log
+ 1008  ls
+ 1009  cd ..
+ 1010  ls
+ 1011  cd IntercomDAO/
+ 1012  ls
+ 1013  git staus
+ 1014  ls
+ 1015  cd lib/
+ 1016  ls
+ 1017  cd MF/
+ 1018  ls
+ 1019  perl teste.pl 
+ 1020  clear
+ 1021  perl teste.pl 
+ 1022  perl -v
+ 1023  pwd
+ 1024  cd ..
+ 1025  ls
+ 1026  cd ..
+ 1027  ls
+ 1028  cd ..
+ 1029  ls
+ 1030  cd IntercomDAO/
+ 1031  atom .
+ 1032  pwd
+ 1033  ls
+ 1034  cd t/
+ 1035  ls
+ 1036  cd MF/
+ 1037  ls
+ 1038  perl teste.pl 
+ 1039  cd /tmp/
+ 1040  mkdir lol
+ 1041  ls
+ 1042  cd lol/
+ 1043  ls
+ 1044  git init
+ 1045  touch lol.txt
+ 1046  git commit -m "ta fixe"
+ 1047  git commit -am "ta fixe"
+ 1048  git status
+ 1049  git add . 
+ 1050  git commit -am "ta fixe"
+ 1051  git branch -b lol2
+ 1052  git checkout -b lol2
+ 1053  cd  ..
+ 1054  ls
+ 1055  cd lol/
+ 1056  ls
+ 1057  ls -la .git/
+ 1058  ls -la
+ 1059  git log
+ 1060  git branch 
+ 1061  cd ..
+ 1062  rm -rf lol/
+ 1063  ls
+ 1064  history
+ 1065  clear
+ 1066  history
+ 1067  cd ~
+ 1068  ls
+ 1069  cd Desktop/
+ 1070  ls
+ 1071  pwd
+ 1072  cd Trunk/
+ 1073  ls
+ 1074  cd sm5/
+ 1075  ls
+ 1076  cd sitemaker/perl/Sitemaker-DAO/
+ 1077  ls
+ 1078  cd lib/
+ 1079  ls
+ 1080  cd Sitemaker/
+ 1081  ls
+ 1082  cd YavinDAO/
+ 1083  ls
+ 1084  cat Common.pm | pbcopy
+ 1085  less Catalog.pm 
+ 1086  cd /Users/americo/myMoonfruit/spike/BackEnd_PERL_API/proj001_send-msg-intercom/curl/intercom/IntercomDAO/lib/MF
+ 1087  cd ..
+ 1088  ls
+ 1089  cd t
+ 1090  cd MF/
+ 1091  ls
+ 1092  cd ..
+ 1093  ls
+ 1094  perl Main.t
+ 1095  clear
+ 1096  pwd
+ 1097  ls
+ 1098  perl Main.t
+ 1099  clar
+ 1100  clear
+ 1101  perl Main.t
+ 1102  clear
+ 1103  perl -v
+ 1104  perl -Ilib Main.pm
+ 1105  git add .
+ 1106  git commit -m 'more unit tests'
+ 1107  git status
+ 1108  clear
+ 1109  git log
+ 1110  git checkout 7b51101e58eb0ea79df45e5b80adae2ea95f9cc3
+ 1111  pwd
+ 1112  clear
+ 1113  git clog
+ 1114  git log
+ 1115  clear
+ 1116  git commit 644e44d990798f51c883231791908e7ec9faf096
+ 1117  git reflog
+ 1118  git checkout 644e44d990798f51c883231791908e7ec9faf096
+ 1119  clear
+ 1120  git log
+ 1121  git checkout c80067f2a60c6c44e58ce392c9f1740a98f8b60a
+ 1122  git checkout 644e44d990798f51c883231791908e7ec9faf096
+ 1123  pwd
+ 1124  cd lib/
+ 1125  ls
+ 1126  perl -Ilib Main.pm
+ 1127  cd ..
+ 1128  ls
+ 1129  clear
+ 1130  ls
+ 1131  perl -Ilib Main.pm
+ 1132  clear
+ 1133  pwd
+ 1134  ls
+ 1135  cd lib/
+ 1136  perl -Ilib Main.pm
+ 1137  clear
+ 1138  ls
+ 1139  perl Main.t
+ 1140  clear
+ 1141  perl Main.t
+ 1142  clear
+ 1143  ls
+ 1144  cd MF/
+ 1145  ls
+ 1146  perl -Ilib IntercomDAO.t
+ 1147  clear
+ 1148  perl -Ilib IntercomDAO.t
+ 1149  clear
+ 1150  perl -Ilib IntercomDAO.t
+ 1151  clear
+ 1152  perl -Ilib IntercomDAO.t
+ 1153  clear
+ 1154  perl -Ilib IntercomDAO.t
+ 1155  clear
+ 1156  perl -Ilib IntercomDAO.t
+ 1157  clear
+ 1158  perl -Ilib IntercomDAO.t
+ 1159  claer
+ 1160  clear
+ 1161  claer
+ 1162  clear
+ 1163  perl -Ilib IntercomDAO.t
+ 1164  pwd
+ 1165  ls
+ 1166  clear
+ 1167  pwd
+ 1168  cd ..
+ 1169  cd
+ 1170  ls
+ 1171  cd -
+ 1172  cd ..
+ 1173  ls
+ 1174  cd ..
+ 1175  ls
+ 1176  cd IntercomDAO/
+ 1177  ls
+ 1178  clear
+ 1179  git add .
+ 1180  git commit -m 'more changes'
+ 1181  git add .
+ 1182  git commit -m 'stable recognizes the new constructor (path problem)'
+ 1183  clear
+ 1184  git log
+ 1185  git add .
+ 1186  git commit -m 'stable checking if it is alive'
+ 1187  clear
+ 1188  git log -4
+ 1189  git status
+ 1190  git add .
+ 1191  git commit -m 'final unit test for now...'
+ 1192  git status
+ 1193  git chechout 
+ 1194  clear
+ 1195  git log -1
+ 1196  git checkout a49b2e91f5b5b1ae3ffdd829529d15fe1d1841a0
+ 1197  gti diff
+ 1198  git diff
+ 1199  git checkout a49b2e91f5b5b1ae3ffdd829529d15fe1d1841a0
+ 1200  clear
+ 1201  git log -1
+ 1202  git checkout a49b2e91f5b5b1ae3ffdd829529d15fe1d1841a0
+ 1203  atom .
+ 1204  git reset --hard
+ 1205  git log -1
+ 1206  clear
+ 1207  git status
+ 1208  git reflog 
+ 1209  clear
+ 1210  git log -5
+ 1211  git checkout a49b2e91f5b5b1ae3ffdd829529d15fe1d1841a0
+ 1212  git reset --hard
+ 1213  clear
+ 1214  git reset --hard
+ 1215  git reflog -5
+ 1216  git log -5
+ 1217  git show a49b2e91f5b5b1ae3ffdd829529d15fe1d1841a0
+ 1218  clear
+ 1219  git reflog -5
+ 1220  git log -5
+ 1221  git add .
+ 1222  git commit -m 'remove Main.t'
+ 1223  clear
+ 1224  git reflog -5
+ 1225  git log -5
+ 1226  clear
+ 1227  git add .
+ 1228  git commit -m 'stable unit tests and sending a message'
+ 1229  git log -5
+ 1230  git add .
+ 1231  git commit -m 'added new files in old folder'
+ 1232  git status
+ 1233  git add .
+ 1234  git commit -m 'update'
+ 1235  git status
+ 1236  git checkout .
+ 1237  git status
+ 1238  clear
+ 1239  pwd
+ 1240  git status
+ 1241  git add .
+ 1242  git commit -m 'update'
+ 1243  perl Main.t
+ 1244  perl Main.pm
+ 1245  cd ..
+ 1246  ls
+ 1247  cd -
+ 1248  ls
+ 1249  cd lib/
+ 1250  ls
+ 1251  mv Main.pm main.pl
+ 1252  ls
+ 1253  mv main.pl ..
+ 1254  ls
+ 1255  cd ..
+ 1256  ls
+ 1257  perl -Ilib main.pl 
+ 1258  ls
+ 1259  prove -Ilib lib/MF/IntercomDAO.t
+ 1260  prove -i lib lib/MF/IntercomDAO.t
+ 1261  prove --lib lib lib/MF/IntercomDAO.t
+ 1262  prove -h
+ 1263  prove -l lib lib/MF/IntercomDAO.t
+ 1264  prove -l ./lib lib/MF/IntercomDAO.t
+ 1265  ls
+ 1266  mkdir t
+ 1267  mv lib/MF/IntercomDAO.t t/
+ 1268  prove -l ./lib t/IntercomDAO.t 
+ 1269  ls
+ 1270  prove -l ./lib t/IntercomDAO.t 
+ 1271  perl -Ilib t/IntercomDAO.t 
+ 1272  prove -l ./lib t/IntercomDAO.t 
+ 1273  prove -v -l ./lib t/IntercomDAO.t 
+ 1274  prove -v -l ./lib t/
+ 1275  prove -v -l ./lib t/MF/IntercomDAO.t 
+ 1276  perl -e 'print "@INC"; '
+ 1277  history
+ 1278  history >> /Users/americo/Desktop/history.txt
