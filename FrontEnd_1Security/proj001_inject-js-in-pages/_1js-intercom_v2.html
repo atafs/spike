@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>INTERCOM STUFF</h1>
+<p>the widget to communicate</p>
+
+<div id="intercom">
+  <script>
+    //Install Intercom on your web app
+    window.intercomSettings = {
+    	app_id: "i4eeesp5",
+    	name: "tomas",
+    	email: "americo@moonfruit.com",
+    	user_id: "400005"
+      user_hash: "3dfc862d43ab811ce482914c00d0d49586df27e5bb6da401814bab2d1d0a5232",
+
+    };
+
+    (function() {
+    	console.log('AMERICO HERE!!');
+
+    	var w = window;
+    	var ic = w.Intercom;
+    	if (typeof ic === "function") {
+    		ic('reattach_activator');
+    		ic('update', intercomSettings);
+    	} else {
+    		var d = document;
+    		var i = function() {
+    			i.c(arguments)
+    		};
+    		i.q = [];
+    		i.c = function(args) {
+    			i.q.push(args)
+    		};
+    		w.Intercom = i;
+
+    		function l() {
+    			var s = d.createElement('script');
+    			s.type = 'text/javascript';
+    			s.async = true;
+    			s.src = 'https://widget.intercom.io/widget/i4eeesp5';
+    			var x = d.getElementsByTagName('script')[0];
+    			x.parentNode.insertBefore(s, x);
+    		}
+
+    		if (w.attachEvent) {
+    			w.attachEvent('onload', l);
+          console.log('AMERICO HERE!! - if (w.attachEvent)');
+    		} else {
+    			w.addEventListener('load', l, false);
+          console.log('AMERICO HERE!! - else');
+
+    		}
+    	}
+    })()
+
+    //To open the message window with the new message view you can call
+    Intercom('showNewMessage');
+  </script>
+</div>
+
+</body>
+</html>
