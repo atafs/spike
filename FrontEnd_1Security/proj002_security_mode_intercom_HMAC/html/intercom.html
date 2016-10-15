@@ -1,0 +1,7 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/hmac-sha256.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/components/enc-base64-min.js"></script>
+<script>
+	var hash = CryptoJS.HmacSHA256("Message", "secret");
+	var hashInHex = CryptoJS.enc.Hex.stringify(hash);
+	document.write(hashInHex); // aa747c502a898200f9e4fa21bac68136f886a0e27aec70ba06daf2e2a5cb5597
+</script>
