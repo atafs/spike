@@ -1,0 +1,7 @@
+//youtube tutorials
+
+//MySQL Tutorial: Creating an Entity-Relationship Diagram
+https://www.youtube.com/watch?v=bk0n2QLLxPI
+
+//Create ER diagram and Export to DB in MYSQL Workbench on MAC
+https://www.youtube.com/watch?v=JOrnBqYttrU
